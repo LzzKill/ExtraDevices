@@ -1,0 +1,33 @@
+{
+  "schemaVersion" : 1,
+  "id" : "extradevices",
+  "version" : "${version}",
+  "name" : "ExtraDevices",
+  "description" : "",
+  "authors" : [ "" ],
+  "contact" : {
+    "homepage" : ""
+  },
+  "license" : "MPL-2.0",
+  "icon" : "assets/extradevices/icon.png",
+  "environment" : "*",
+  "entrypoints" : {
+    "main" : [
+      "com.lzzkill.extradevices.fabric.ExtradevicesFabric"
+    ],
+    "client" : [
+      "com.lzzkill.extradevices.fabric.client.ExtradevicesFabricClient"
+    ]
+  },
+  "mixins" : [
+    "extradevices.mixins.json"
+  ],
+  "depends" : {
+    "fabricloader" : ">=0.16.14",
+    "minecraft" : "~1.18.2",
+    "java" : ">=17", "architectury" : ">=4.12.94", "fabric-api" : "*"
+  },
+  "suggests" : {
+    "another-mod" : "*"
+  }
+}
