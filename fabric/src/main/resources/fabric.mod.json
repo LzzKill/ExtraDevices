@@ -13,7 +13,7 @@
   "environment" : "*",
   "entrypoints" : {
     "main" : [
-      "com.lzzkill.extradevices.fabric.ExtradevicesFabric"
+      "com.lzzkill.extradevices.fabric.ExtraDevicesFabric"
     ],
     "client" : [
       "com.lzzkill.extradevices.fabric.client.ExtradevicesFabricClient"

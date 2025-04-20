@@ -1,9 +1,9 @@
 package com.lzzkill.extradevices.fabric;
 
-import com.lzzkill.extradevices.Extradevices;
+import com.lzzkill.extradevices.ExtraDevices;
 import net.fabricmc.api.ModInitializer;
 
-public final class ExtradevicesFabric implements ModInitializer
+public final class ExtraDevicesFabric implements ModInitializer
 {
     @Override
     public void onInitialize()
@@ -13,6 +13,6 @@ public final class ExtradevicesFabric implements ModInitializer
         // Proceed with mild caution.
 
         // Run our common setup.
-        Extradevices.init();
+        ExtraDevices.init();
     }
 }
