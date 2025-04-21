@@ -1,4 +1,9 @@
 {
   "item.extradevices.division_sigil": "Division Sigil",
-  "itemGroup.extradevices.extra_devices_tab": "Extra Devices"
+  "item.extradevices.unstable_ingot": "Unstable Ingot",
+  "item.extradevices.stable_ingot": "Stable-Unstable Ingot",
+  
+  "tooltip.unstable_ingot": "Error: Divide diamond.",
+  
+  "itemGroup.extradevices.extra_devices_tab": "Extra (Maybe Usability) Devices"
 }

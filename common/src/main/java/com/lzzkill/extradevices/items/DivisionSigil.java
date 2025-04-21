@@ -1,5 +1,6 @@
 package com.lzzkill.extradevices.items;
 
+import com.lzzkill.extradevices.Items;
 import net.minecraft.world.item.Item;
 
 public class DivisionSigil extends Item

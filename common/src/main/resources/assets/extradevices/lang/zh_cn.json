@@ -1,4 +1,10 @@
 {
   "item.extradevices.division_sigil": "分割徽章",
-  "itemGroup.extradevices.extra_devices_tab": "更多实用设备"
+  "item.extradevices.unstable_ingot": "不稳定金属锭",
+  "item.extradevices.stable_ingot": "稳定-不稳定金属锭",
+  
+  "tooltip.unstable_ingot": "错误：除以钻石。",
+  
+  "itemGroup.extradevices.extra_devices_tab": "更多(可能实用)设备"
+
 }
