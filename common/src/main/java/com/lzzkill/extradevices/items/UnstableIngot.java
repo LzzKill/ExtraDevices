@@ -1,6 +1,6 @@
 package com.lzzkill.extradevices.items;
 
-import com.lzzkill.extradevices.ObjectsHandler;
+import com.lzzkill.extradevices.ExtraDevices;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -14,7 +14,7 @@ public class UnstableIngot extends Item
 {
     public UnstableIngot(Item.Properties properties)
     {
-        super(properties.fireResistant().tab(ObjectsHandler.EXTRA_DEVICES_TAB));
+        super(properties.fireResistant().tab(ExtraDevices.EXTRA_DEVICES_TAB));
     }
 
 
