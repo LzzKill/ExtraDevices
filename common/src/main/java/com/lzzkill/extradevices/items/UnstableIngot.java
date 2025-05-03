@@ -1,6 +1,6 @@
 package com.lzzkill.extradevices.items;
 
-import com.lzzkill.extradevices.Items;
+import com.lzzkill.extradevices.ObjectsHandler;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -12,14 +12,19 @@ import java.util.List;
 
 public class UnstableIngot extends Item
 {
-    public UnstableIngot()
+    public UnstableIngot(Item.Properties properties)
     {
-        super(new Item.Properties().fireResistant().tab(Items.EXTRA_DEVICES_TAB));
+        super(properties.fireResistant().tab(ObjectsHandler.EXTRA_DEVICES_TAB));
     }
 
 
     public static class Unstable extends UnstableIngot
     {
+        public Unstable()
+        {
+            super(new Item.Properties().stacksTo(1));
+        }
+
         public static void toolTip(ItemStack itemStack, List<Component> components, TooltipFlag tooltipFlag)
         {
             if (itemStack.getItem() instanceof Unstable) {
@@ -32,6 +37,11 @@ public class UnstableIngot extends Item
 
     public static class Stable extends UnstableIngot
     {
+        public Stable()
+        {
+            super(new Item.Properties());
+        }
+
         public static void toolTip(ItemStack itemStack, List<Component> components, TooltipFlag tooltipFlag)
         {
             if (itemStack.getItem() instanceof Stable) {

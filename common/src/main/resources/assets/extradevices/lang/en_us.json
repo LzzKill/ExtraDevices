@@ -1,9 +1,8 @@
 {
-  "item.extradevices.division_sigil": "Division Sigil",
-  "item.extradevices.unstable_ingot": "Unstable Ingot",
-  "item.extradevices.stable_ingot": "Stable-Unstable Ingot",
-  
-  "tooltip.unstable_ingot": "Error: Divide diamond.",
-  
-  "itemGroup.extradevices.extra_devices_tab": "Extra (Maybe Usability) Devices"
+  "item.extradevices.division_sigil" : "Division Sigil",
+  "item.extradevices.unstable_ingot" : "Unstable Ingot",
+  "item.extradevices.stable_ingot" : "Stable-Unstable Ingot",
+  "tooltip.unstable_ingot" : "Error: Divide diamond.",
+  "tooltip.compressed_block" : "About %d blocks.",
+  "itemGroup.extradevices.extra_devices_tab" : "Extra (Maybe Usability) Devices"
 }

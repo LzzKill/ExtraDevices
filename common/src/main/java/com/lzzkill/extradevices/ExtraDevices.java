@@ -16,7 +16,7 @@ public final class ExtraDevices
     
     public static void init()
     {
-        Items.register();
+        ObjectsHandler.ITEM_DEFERRED_REGISTER.register();
         registerEvent();
         // Write common init code here.
     }

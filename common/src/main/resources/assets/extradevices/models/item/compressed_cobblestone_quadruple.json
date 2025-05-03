@@ -1,0 +1,6 @@
+{
+  "model" : {
+    "type" : "minecraft:model",
+    "model" : "extradevice:block.compressed_cobblestone_quadruple"
+  }
+}
